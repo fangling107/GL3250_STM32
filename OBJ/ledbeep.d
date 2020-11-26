@@ -1,0 +1,16 @@
+..\OBJ\ledbeep.o: ..\HARDWARE\LED\ledbeep.c
+..\OBJ\ledbeep.o: ..\HARDWARE\LED\ledbeep.h
+..\OBJ\ledbeep.o: ..\SYSTEM\sys\sys.h
+..\OBJ\ledbeep.o: ..\USER\stm32f10x.h
+..\OBJ\ledbeep.o: ..\CORE\core_cm3.h
+..\OBJ\ledbeep.o: d:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\OBJ\ledbeep.o: ..\USER\system_stm32f10x.h
+..\OBJ\ledbeep.o: ..\USER\stm32f10x_conf.h
+..\OBJ\ledbeep.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_fsmc.h
+..\OBJ\ledbeep.o: ..\USER\stm32f10x.h
+..\OBJ\ledbeep.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\OBJ\ledbeep.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\OBJ\ledbeep.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_spi.h
+..\OBJ\ledbeep.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_tim.h
+..\OBJ\ledbeep.o: ..\FWLIB\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\OBJ\ledbeep.o: ..\FWLIB\STM32F10x_FWLib\inc\misc.h

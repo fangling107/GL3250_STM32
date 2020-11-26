@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\LED -I..\HARDWARE\CRC -I..\HARDWARE\IIC -I..\HARDWARE\AT24CXX -I..\HARDWARE\PWM -I..\UCOSIII\uC-CPU -I..\UCOSIII\uC-LIB -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M3\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView 
+-I d:\Keil\ARM\RV31\INC 
+-I d:\Keil\ARM\CMSIS\Include 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\os_pend_multi.o" --omf_browse "..\OBJ\os_pend_multi.crf" --depend "..\OBJ\os_pend_multi.d" "..\UCOSIII\uCOS-III\Source\os_pend_multi.c"

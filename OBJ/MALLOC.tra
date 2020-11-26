@@ -1,0 +1,67 @@
+*** Creating Trace Output File '..\OBJ\MALLOC.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\main.o"'
+### List of Objects: adding '"..\obj\stm32f10x_it.o"'
+### List of Objects: adding '"..\obj\system_stm32f10x.o"'
+### List of Objects: adding '"..\obj\ledbeep.o"'
+### List of Objects: adding '"..\obj\crc16.o"'
+### List of Objects: adding '"..\obj\24cxx.o"'
+### List of Objects: adding '"..\obj\myiic.o"'
+### List of Objects: adding '"..\obj\pwm.o"'
+### List of Objects: adding '"..\obj\delay.o"'
+### List of Objects: adding '"..\obj\sys.o"'
+### List of Objects: adding '"..\obj\usart.o"'
+### List of Objects: adding '"..\obj\core_cm3.o"'
+### List of Objects: adding '"..\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\obj\misc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\obj\stm32f10x_usart.o"'
+### List of Objects: adding '"..\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_tim.o"'
+### List of Objects: adding '"..\obj\bsp.o"'
+### List of Objects: adding '"..\obj\cpu_core.o"'
+### List of Objects: adding '"..\obj\cpu_c.o"'
+### List of Objects: adding '"..\obj\cpu_a.o"'
+### List of Objects: adding '"..\obj\lib_ascii.o"'
+### List of Objects: adding '"..\obj\lib_math.o"'
+### List of Objects: adding '"..\obj\lib_mem.o"'
+### List of Objects: adding '"..\obj\lib_str.o"'
+### List of Objects: adding '"..\obj\lib_mem_a.o"'
+### List of Objects: adding '"..\obj\os_cfg_app.o"'
+### List of Objects: adding '"..\obj\os_core.o"'
+### List of Objects: adding '"..\obj\os_dbg.o"'
+### List of Objects: adding '"..\obj\os_flag.o"'
+### List of Objects: adding '"..\obj\os_int.o"'
+### List of Objects: adding '"..\obj\os_mem.o"'
+### List of Objects: adding '"..\obj\os_msg.o"'
+### List of Objects: adding '"..\obj\os_mutex.o"'
+### List of Objects: adding '"..\obj\os_pend_multi.o"'
+### List of Objects: adding '"..\obj\os_prio.o"'
+### List of Objects: adding '"..\obj\os_q.o"'
+### List of Objects: adding '"..\obj\os_sem.o"'
+### List of Objects: adding '"..\obj\os_stat.o"'
+### List of Objects: adding '"..\obj\os_task.o"'
+### List of Objects: adding '"..\obj\os_tick.o"'
+### List of Objects: adding '"..\obj\os_time.o"'
+### List of Objects: adding '"..\obj\os_tmr.o"'
+### List of Objects: adding '"..\obj\os_var.o"'
+### List of Objects: adding '"..\obj\os_cpu_a.o"'
+### List of Objects: adding '"..\obj\os_cpu_c.o"'
+### List of Objects: adding '"..\obj\os_app_hooks.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\obj\main.o" "..\obj\stm32f10x_it.o" "..\obj\system_stm32f10x.o" "..\obj\ledbeep.o" "..\obj\crc16.o" "..\obj\24cxx.o" "..\obj\myiic.o" "..\obj\pwm.o" "..\obj\delay.o" "..\obj\sys.o" "..\obj\usart.o" "..\obj\core_cm3.o" "..\obj\startup_stm32f10x_hd.o" "..\obj\misc.o" "..\obj\stm32f10x_gpio.o" "..\obj\stm32f10x_usart.o" "..\obj\stm32f10x_rcc.o" "..\obj\stm32f10x_tim.o" "..\obj\bsp.o" "..\obj\cpu_core.o" "..\obj\cpu_c.o" "..\obj\cpu_a.o" "..\obj\lib_ascii.o" "..\obj\lib_math.o" "..\obj\lib_mem.o" "..\obj\lib_str.o" "..\obj\lib_mem_a.o" "..\obj\os_cfg_app.o" "..\obj\os_core.o" "..\obj\os_dbg.o" "..\obj\os_flag.o" "..\obj\os_int.o" "..\obj\os_mem.o" "..\obj\os_msg.o" "..\obj\os_mutex.o" "..\obj\os_pend_multi.o" "..\obj\os_prio.o" "..\obj\os_q.o" "..\obj\os_sem.o" "..\obj\os_stat.o" "..\obj\os_task.o" "..\obj\os_tick.o" "..\obj\os_time.o" "..\obj\os_tmr.o" "..\obj\os_var.o" "..\obj\os_cpu_a.o" "..\obj\os_cpu_c.o" "..\obj\os_app_hooks.o" 
+--strict --scatter "..\OBJ\MALLOC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\MALLOC.map" -o ..\OBJ\MALLOC.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OBJ\MALLOC.axf'
+### ADS-LD Command File: '..\OBJ\MALLOC.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OBJ\MALLOC.lnp', Handle=0x000004FC
+### Writing '.lnp' file
+### ADS-LD Command file '..\OBJ\MALLOC.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

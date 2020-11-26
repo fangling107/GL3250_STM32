@@ -1,0 +1,4 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\FWLIB\STM32F10x_FWLib\inc -I..\HARDWARE\LED -I..\UCOSIII\uC-CPU -I..\UCOSIII\uC-LIB -I..\UCOSIII\uCOS-III -I..\UCOSIII\UCOS_BSP -I..\UCOSIII\uCOS_CONFIG -I..\UCOSIII\uCOS-III\Source -I..\UCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I..\UCOSIII\uC-LIB\Ports\ARM-Cortex-M3\RealView -I..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView 
+-I D:\keil4\ARM\RV31\INC 
+-I D:\keil4\ARM\CMSIS\Include 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\led.o" --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d" "..\HARDWARE\LED\led.c"
